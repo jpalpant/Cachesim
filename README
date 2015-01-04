@@ -1,0 +1,12 @@
+README
+ECE 250 - Fall 2014 - Homework 5
+Justin Palpant (jbp25)
+
+I did not consult with anyone regarding this homework assignment.
+
+The problems that make up the first part of the homework are completed in the PDF file "Homework 5 Handwritten Part.pdf"
+
+The cache simulator is completed in the java files also included here.  
+The primary class is Cachesim.java.
+It processes command line arguments as specified in the assignment:  after compling, running "java Cachesim tracefile 1024 4 32" with the sample tracefile I have provided will simulate a 1024kB cache with 4-way set associativity and 32 byte blocks with the commands in tracefile
+There are no remaining bugs that I am aware of, but you should know that when printing the result of each command in tracefile to the console, Cachesim truncates leading zeros of the hexadecimal addresses and does not preface data returned by a load with "0x".
